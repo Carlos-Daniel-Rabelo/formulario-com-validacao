@@ -1,27 +1,30 @@
-
-/* =========================
-   📱 RESPONSIVIDADE TABLET
-   ========================= */
 @media (max-width: 768px) {
     body {
-        padding: 20px;
         flex-direction: column;
-        height: auto;
+        height: 100vh;
+        gap: 20px;
     }
 
     .secao {
         width: 100%;
         text-align: center;
         align-items: center;
+        height: auto;
     }
 
     .secao h1 {
-        font-size: 24px;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     .secao form {
         width: 80%;
         max-width: 400px;
         align-self: center;
+    }
+
+    .secao form label,
+    .secao form p {
+        text-align: start;
     }
 }
