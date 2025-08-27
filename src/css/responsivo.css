@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-    body {
+    .container {
         flex-direction: column;
         height: 100vh;
         gap: 20px;
