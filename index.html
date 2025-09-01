@@ -19,18 +19,30 @@
         </section>
         <section class="secao">
             <form action="">
-                <label for="nome">Nome</label>
+                <label for="nome"></label>
                 <input type="text" placeholder="Nome completo *" name="nome" id="nome" required>
-                <label for="email">Email</label>
-                <input type="email" placeholder="E-mail *" name="email" id="email" required>
-                <label for="telefone">Telefone</label>
+                <span>campo obrigatório</span>
+
+                <label for="email"></label>
+                <input type="email" placeholder="Email *" name="email" id="email" required>
+                <span>campo obrigatório</span>
+
+                <label for="telefone"></label>
                 <input type="tel" placeholder="Telefone *" name="telefone" id="telefone" required>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *" required></textarea>
+                <span>campo obrigatório</span>
+
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *" required>
+                </textarea>
+                
+                <span>campo obrigatório</span>
+
                 <p>*campos obrigatórios</p>
+
                 <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
+    <script src="src/js/validacao.js"></script>
 </body>
 
 </html>
