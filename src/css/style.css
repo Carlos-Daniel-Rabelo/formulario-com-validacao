@@ -105,10 +105,10 @@ span:last-of-type {
     opacity: 1;
 }
 
-.invalid-border {
+.invalido {
     border: 1px solid #F52E2E;
 }
 
-.valid-border {
+.valido {
     border: 1px solid #00C22B;
 }
