@@ -96,11 +96,6 @@ span {
     opacity: 0;
 }
 
-span:last-of-type {
-    position: absolute;
-    top: 274px;
-}
-
 .span-message-error {
     opacity: 1;
 }
