@@ -78,15 +78,10 @@
     cursor: pointer;
 }
 
-/* span {
+.span-mensagem-erro {
+    color: #F52E2E;
     font-size: 8px;
     font-weight: 400;
-    color: #F52E2E;
-    display: block;
-    opacity: 0;
-}
-
-.span-message-error {
     opacity: 1;
 }
 
@@ -96,4 +91,4 @@
 
 .valido {
     border: 1px solid #00C22B;
-} */
+}

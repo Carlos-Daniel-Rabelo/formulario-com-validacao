@@ -20,15 +20,27 @@
         </section>
         <section class="secao">
             <form id="formulario">
-                <input type="text" placeholder="Nome completo *" name="nome" id="nome">
+                <div class="campo">
+                    <input type="text" placeholder="Nome completo *" name="nome" id="nome">
+                    <span class="span-mensagem-erro">campo obrigatório</span>
+                </div>
 
-                <input type="email" placeholder="Email *" name="email" id="email">
+                <div class="campo">
+                    <input type="email" placeholder="Email *" name="email" id="email">
+                    <span class="span-mensagem-erro">campo obrigatório</span>
+                </div>
 
-                <input type="tel" placeholder="Telefone *" name="telefone" id="telefone">
+                <div class="campo">
+                    <input type="tel" placeholder="Telefone *" name="telefone" id="telefone">
+                    <span class="span-mensagem-erro">campo obrigatório</span>
+                </div>
 
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *">
-                </textarea>
-
+                <div class="campo">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *">
+                    </textarea>
+                    <span class="span-mensagem-erro">campo obrigatório</span>
+                </div>
+                
                 <p>*campos obrigatórios</p>
 
                 <button type="submit">Enviar</button>
