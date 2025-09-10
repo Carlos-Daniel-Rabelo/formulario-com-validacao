@@ -7,15 +7,20 @@ formulario.addEventListener('submit', (event) => {
     // adicione sua lógica de tratamento de formulário aqui
     inputs.forEach((input, index) => {
         // obtive o valor de cada input individualmente
-        console.log(input.value)
-        console.log(index)
+        console.log(input.value);
+        console.log(index);
 
         // verificar se os inputs estão com algum valor 
         if (input.value.trim() === "") {
             // input esta sem nenhum conteúdo
-            input.classList.add('invalido')
-            camposObrigatorio[index].classList.remove('campo-obrigatorio')
+            input.classList.add('invalido');
+            input.classList.remove('valido');
+            camposObrigatorio[index].classList.remove('campo-obrigatorio');
+        } else { 
+            input.classList.remove('invalido');
+            input.classList.add('valido');
+            camposObrigatorio[index].classList.add('campo-obrigatorio');
         }
         // para o else fazer o caminho contrario
-    })
+    });
 });

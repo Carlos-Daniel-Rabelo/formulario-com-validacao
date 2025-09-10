@@ -93,10 +93,10 @@ span {
     visibility: hidden;
 }
 
-.invalido {
+.input.invalido {
     border: 1px solid #F52E2E;
 }
 
-.valido {
+.input.valido {
     border: 1px solid #00C22B;
 }
