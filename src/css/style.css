@@ -83,11 +83,14 @@ form .campo {
     cursor: pointer;
 }
 
-.span-mensagem-erro {
+span {
     color: #F52E2E;
     font-size: 8px;
     font-weight: 400;
-    opacity: 1;
+}
+
+.campo-obrigatorio {
+    visibility: hidden;
 }
 
 .invalido {
